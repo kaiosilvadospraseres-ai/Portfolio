@@ -1,0 +1,76 @@
+.icones{
+    width: 10%;
+    gap: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%; 
+    margin-left: 4%;
+}
+
+.icones img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.carro {
+  background-color: white;
+  border: solid black 4px;
+  border-radius: 50%;
+}
+
+.aviao {
+  background-color: white; 
+  border: solid black 4px;
+   border-radius: 50%;
+}
+
+.musica {
+  background-color: white; 
+  border: solid black 4px;
+   border-radius: 50%;
+}
+
+.curriculo {
+  background-color: white; 
+  border: solid black 4px;
+   border-radius: 50%;
+}
+
+body{
+    margin: 0; 
+    min-height: 100vh; 
+    background: linear-gradient(rgb(28, 27, 27), rgb(83, 82, 82));
+    
+}
+
+.menu{
+    justify-content: center;
+    gap: 100px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 150%;
+    color: white;
+    list-style-type: none;
+}
+
+.estrutura{
+    display: flex;
+    gap: 50%;
+    max-width: 60%;
+}
+
+.estrutura p{
+    text-align: center;
+    max-width: 100%;
+}
+
+.kaio{
+    width: 20%;
+    height: 20%;
+    border-radius: 60%;
+}
+
+
