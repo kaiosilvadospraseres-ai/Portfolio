@@ -1,0 +1,76 @@
+.palavra-link {
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+  position: relative; /* Importante para posicionar a aba corretamente */
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* Estilo da "aba" que começa escondida */
+.aba-flutuante {
+  display: none; /* Esconde a aba por padrão */
+  position: absolute;
+  top: 100%; /* Faz a aba aparecer logo abaixo da palavra */
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+  padding: 15px;
+  border-radius: 8px;
+  width: 500%;
+  z-index: 10; /* Garante que ela fique por cima de outros textos */
+  background: linear-gradient(black,gray);
+  font-size:105%;
+  text-align: justify;
+}
+
+.palavra-link:hover .aba-flutuante {
+  display: block;
+}
+
+/* Estilo da "aba" que começa escondida */
+.aba-flutuante2 {
+  display: none; /* Esconde a aba por padrão */
+  position: absolute;
+  top: 100%; /* Faz a aba aparecer logo abaixo da palavra */
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+  padding: 15px;
+  border-radius: 8px;
+  width: 500%;
+  z-index: 10; /* Garante que ela fique por cima de outros textos */
+  background: linear-gradient(black,gray);
+  font-size:105%;
+  text-align: justify;
+}
+
+.palavra-link:hover .aba-flutuante2 {
+  display: block;
+}
+
+/* Estilo da "aba" que começa escondida */
+.aba-flutuante3 {
+  display: none; /* Esconde a aba por padrão */
+  position: absolute;
+  top: 100%; /* Faz a aba aparecer logo abaixo da palavra */
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+  padding: 15px;
+  border-radius: 8px;
+  width: 500%;
+  z-index: 10; /* Garante que ela fique por cima de outros textos */
+  background: linear-gradient(black,gray);
+  font-size:105%;
+  text-align: justify;
+}
+
+.palavra-link:hover .aba-flutuante3 {
+  display: block;
+}
+
+
