@@ -1,15 +1,14 @@
 .icones{
-    width: 10%;
+    width: 40%;
     gap: 100px;
     display: flex;
-    flex-direction: column;
-    margin-top: 5%; 
+    flex-direction: column; 
     margin-left: 4%;
 }
 
 .icones img{
     max-width: 100%;
-    max-height: 100%;
+    height: auto;
 }
 
 .carro {
@@ -39,8 +38,7 @@
 body{
     margin: 0; 
     min-height: 100vh; 
-    background: linear-gradient(rgb(28, 27, 27), rgb(83, 82, 82));
-    
+    background: linear-gradient(rgb(11, 11, 11), rgb(52, 50, 50));
 }
 
 .menu{
@@ -58,19 +56,57 @@ ul{
 
 .estrutura{
     display: flex;
-    gap: 50%;
-    max-width: 60%;
+    max-width: 90%;
+    gap: 32%;
+    height: large;
+    margin-top: 5%;
 }
 
 .estrutura p{
-    text-align: center;
+    text-align: justify;
     max-width: 100%;
+    font-size: 30px;
 }
 
 .kaio{
-    width: 20%;
-    height: 20%;
+    display: flex;
+    width: 50%;
+    height: 30%;
     border-radius: 60%;
+    margin: auto;
+    border: solid black 3px;
 }
 
+.texto{
+    margin-right: 30%;
+    
+}
 
+.palavra-link {
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+  position: relative; /* Importante para posicionar a aba corretamente */
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* Estilo da "aba" que começa escondida */
+.aba-flutuante {
+  display: none; /* Esconde a aba por padrão */
+  position: absolute;
+  top: 100%; /* Faz a aba aparecer logo abaixo da palavra */
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+  padding: 15px;
+  border-radius: 8px;
+  width: 250px;
+  z-index: 10; /* Garante que ela fique por cima de outros textos */
+  background: linear-gradient(black,gray);
+}
+
+.palavra-link:hover .aba-flutuante {
+  display: block;
+}
